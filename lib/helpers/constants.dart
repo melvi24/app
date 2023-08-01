@@ -11,7 +11,7 @@ class Constants {
 
   //API Key Token ChatGPT OpenAI...esta es la api de open ai original
   static String apiKeyToken =
-      "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";
+      "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";
   //"<update with your OpenAPI Key Paid Account>";
   // https://platform.openai.com/signup
 
@@ -80,6 +80,7 @@ const kChatGptTurboModel = 'gpt-3.5-turbo'; // gpt 3.5
 const kChatGptTurbo0301Model = 'gpt-3.5-turbo-0301';
  */
 
+
   static List<dynamic> objectModels = [
     {"title": "gpt-4", "code": "kChatGpt4", "source": kChatGpt4},
     {"title": "gpt-4-0314", "code": "kChatGpt40314", "source": kChatGpt40314},
@@ -115,6 +116,8 @@ const kChatGptTurbo0301Model = 'gpt-3.5-turbo-0301';
       "source": kCodeDavinci2
     }
   ];
+
+
 
   static String dummyProfilePic =
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6TaCLCqU4K0ieF27ayjl51NmitWaJAh_X0r1rLX4gMvOe0MDaYw&s';

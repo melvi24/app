@@ -79,9 +79,12 @@ class MyPref {
   final pInPackagePage = ReadWriteValue(keyInPackagePage, false, _boxStorage);
 
   //model, token
-  final pModelChat = ReadWriteValue(keyModelChat, kChatGpt4, _boxStorage);
+ // final pModelChat = ReadWriteValue(keyModelChat, kChatGpt4, _boxStorage);
+  //final pModelChat =ReadWriteValue(keyModelChat, kChatGptTurboModel, _boxStorage);
+  final pModelChat =ReadWriteValue(keyModelChat, kChatGptTurboModel, _boxStorage);
   final pMaxToken = ReadWriteValue(keyMaxToken, 800, _boxStorage);
   // change 1000 for max best performance
+
 
   final pNumberImage = ReadWriteValue(keyNumberImage, 1, _boxStorage);
   final pSizeImage = ReadWriteValue(keySizeImage, '256', _boxStorage);
